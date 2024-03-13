@@ -34,9 +34,7 @@
    grid-area: MAIN; 
    display: flex;
   }
-.card {
-  margin-left: 50px ;
-}
+
 table{
   margin-left: 50px;
 }
