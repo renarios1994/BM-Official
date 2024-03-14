@@ -1,0 +1,32 @@
+body{
+.body {  display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 2.5fr 0.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "HEADER HEADER HEADER"
+      "MAIN MAIN MAIN"
+      "FOOTER FOOTER FOOTER";
+    width: 100%;
+  }
+  .Header {
+    grid-area: HEADER;
+    display: flex;
+ 
+  }
+  .main {
+    grid-area: MAIN; 
+    display: flex;
+   }
+   table{
+    margin-left: 50px;
+  }
+  .footer { grid-area: FOOTER; 
+    width: 100%;;
+  }
+}

@@ -1,3 +1,39 @@
+* {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
+@font-face {
+  font-family: namdinggo;
+  src: url(../tipografia/Namdhinggo-ExtraBold.ttf);
+}
+body .body {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 1fr 2.5fr 0.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas: "HEADER HEADER HEADER" "MAIN MAIN MAIN" "FOOTER FOOTER FOOTER";
+  width: 100%;
+}
+body .Header {
+  grid-area: HEADER;
+  display: flex;
+}
+body .main {
+  grid-area: MAIN;
+  display: flex;
+}
+body table {
+  margin-left: 50px;
+}
+body .footer {
+  grid-area: FOOTER;
+  width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */
