@@ -14,11 +14,11 @@ body{
       "FOOTER FOOTER FOOTER";
     width: 100%;
   }
+  
   .Header {
     grid-area: HEADER;
-    display: flex;
- 
-  }
+    display: flex;}
+
   .main {
     grid-area: MAIN; 
     display: flex;
